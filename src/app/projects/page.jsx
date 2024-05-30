@@ -11,7 +11,7 @@ const ProjectsPage = async () => {
     return(
         <div className={styles.container} >
             {cards.map((card) => (
-                <div className={styles.post} key={card.id} >
+                <div className={styles.post} key={cards.id} >
                     <PostCard card={card} />
                 </div>
             ))}

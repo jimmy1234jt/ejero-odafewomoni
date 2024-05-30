@@ -6,8 +6,8 @@ const AboutPage = () => {
         <div className={styles.container} >
             <div className={styles.textContainer}>
                 <h2 className={styles.subtitle}>About Ejero</h2>
-                <h1 className={styles.title}>Hello! I'm Ejero, Your Frontend Enthusiast</h1>
-                <p className={styles.desc}>Over the years, I have worked on a variety of projects, from small business websites to large-scale web applications. Each project has taught me the importance of user-centered design, clean code, and performance optimization. I believe that the best digital experiences are built at the intersection of design and technology. I'm always eager to take on new challenges and collaborate with others to bring innovative ideas to life. Let's build something amazing together!</p>
+                <h1 className={styles.title}>Hello! I&apos;m Ejero, Your Frontend Enthusiast</h1>
+                <p className={styles.desc}>Over the years, I have worked on a variety of projects, from small business websites to large-scale web applications. Each project has taught me the importance of user-centered design, clean code, and performance optimization. I believe that the best digital experiences are built at the intersection of design and technology. I&apos;m always eager to take on new challenges and collaborate with others to bring innovative ideas to life. Let&apos;s build something amazing together!</p>
                 <div className={styles.boxes}>
                     <div className={styles.box}>
                         <h1>5+</h1>
