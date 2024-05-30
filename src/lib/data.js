@@ -31,5 +31,6 @@ export const getCards = async () => {
 }
 
 // export const getCard = async (id) => {
-//     return cards.find((card) => card.id === id)
+//     const card = cards.find((card) => card.id === parseInt(id))
+//     return card
 // }
