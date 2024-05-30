@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.textContainer} >
         <h1 className={styles.title}>Frontend Developer Crafting User Experiences</h1>
-        <p className={styles.desc}>Hello! As a frontend developer, my mission is to craft exceptional user experiences through meticulous design and coding. I am dedicated to building responsive and interactive websites that not only look great but also perform seamlessly. Dive into my portfolio to see the variety of projects I've worked on.</p>
+        <p className={styles.desc}>Hello! As a frontend developer, my mission is to craft exceptional user experiences through meticulous design and coding. I am dedicated to building responsive and interactive websites that not only look great but also perform seamlessly. Dive into my portfolio to see the variety of projects I&apos;ve worked on.</p>
         <div className={styles.buttons}>
           <button className={styles.button}  >Learn More</button>
           {/* <button className={styles.button} >Contact</button> */}
