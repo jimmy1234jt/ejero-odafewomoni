@@ -1,0 +1,26 @@
+.container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.minilogo{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+    .minilogo{
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
