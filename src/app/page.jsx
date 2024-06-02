@@ -11,7 +11,7 @@ export default function Home() {
         <div className={styles.buttons}>
           <button className={styles.button}  >Learn More</button>
           {/* <button className={styles.button} >Contact</button> */}
-          <DownloadButton filePath="/home2.gif" fileName="home2.gif"/>
+          <DownloadButton filePath="/shopify.svg" fileName="shopify.svg"/>
         </div>
         <div className={styles.brands}>
           <Image src="/css-3.svg" alt="" width={100} height={50}  className={styles.brandImg}/>
