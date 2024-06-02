@@ -62,7 +62,11 @@
 
 @media (max-width: 768px) {
     .title{
-        font-size: 64px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .container{
         text-align: center;
     }
 
