@@ -9,12 +9,12 @@ const Contact = () => {
             </div>
             <div className={styles.formContainer}>
                 <h1 className={styles.title} >CONTACT</h1>
-                <form action="" className={styles.form} >
-                    <input type="text" placeholder="Name and Surname" />
-                    <input type="Email" placeholder="Email Address" />
-                    <input type="text" placeholder="Phone Number (Optional)" />
-                    <textarea name="" id="" cols={30} rows={10} placeholder="Message"></textarea>
-                    <button >Send</button>
+                <form action="https://formsubmit.co/ejeroodafewomoni@gmail.com" method="POST" className={styles.form} >
+                    <input type="text"  name="Username" placeholder="Name and Surname" required/>
+                    <input type="Email" name="email" placeholder="Email Address" required/>
+                    <input type="text"  placeholder="Phone Number (Optional)" />
+                    <textarea name="message" id="" cols={30} rows={10}  placeholder="Message" required></textarea>
+                    <button type="submit" >Send</button>
                 </form>
                 <div className={styles.socials} >
                     <h2>Socials :</h2>
